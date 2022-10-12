@@ -23,6 +23,8 @@ urlpatterns = [
     path('members', include('Members.urls')),
     path('events', include('Events.urls')),
     path('achievements', include('Achievements.urls')),
-    path('research', include('Research.urls'))
+    path('research', include('Research.urls')),
+    # Added gallery path
+    path('gallery/',include('Gallery.urls'))
 
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

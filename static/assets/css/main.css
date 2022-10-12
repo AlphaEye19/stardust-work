@@ -5264,3 +5264,78 @@ background: linear-gradient(90deg, rgba(81,81,82,1) 0%, rgba(12,12,12,1) 47%, rg
   grid-template-columns: repeat(2,1fr);
   
 }
+
+
+/* ------------------------ Gallery Cards --------------------------------- */
+
+.gallery-img-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  height: 25em;
+  column-gap: 3em;
+  justify-content: space-evenly;
+  margin-right: 1em;
+}
+
+.gallery-img-card-1{
+  border-radius: 2em;
+  border: 2px solid #F9F9F9;
+  padding-left: 2.5em;
+  padding-top: 1.5em;
+  margin-left: 3em;
+}
+
+.gallery-img-card-1 img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 15em;
+  display: block;
+}
+
+.gallery-img-card-2{
+  border-radius: 2em;
+  /* background-color: #00aced; */
+  border: 2px solid #F9F9F9;
+  padding-left: 2.5em;
+  padding-top: 1.5em;
+}
+
+.gallery-img-card-2 img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 12em;
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery-img-card-3{
+  border-radius: 2em;
+  margin-right: 3em;
+  /* background-color: #00aced; */
+  padding-left: 2.5em;
+  padding-top: 1.5em;
+  border: 2px solid #F9F9F9;
+}
+
+.gallery-img-card-3 img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 12em;
+  display: block;
+  margin: 0 auto;
+}
+
+
+                    /* hover on image cards */
+
+                    .gallery-img-card-1:hover{
+                      border: 2px solid #548CFF;
+                    }
+                    .gallery-img-card-2:hover{
+                      border: 2px solid #548CFF;
+                    }
+                    .gallery-img-card-3:hover{
+                      border: 2px solid #548CFF;
+                    }
+
+/* ----------------------------------------------- Gallery Cards End------------------------------------------------------ */

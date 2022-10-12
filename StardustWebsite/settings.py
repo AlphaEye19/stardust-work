@@ -29,9 +29,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = '+6llouc2@s!&bp*%2+bqa75$+m1i$nqr!#k$f92^*m*r9el+iq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://teamstardust.herokuapp.com']
+ALLOWED_HOSTS = ['https://teamstardust.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -39,6 +39,8 @@ ALLOWED_HOSTS = ['https://teamstardust.herokuapp.com']
 INSTALLED_APPS = [
     #stardust apps
     'Achievements',
+    # Added Gallery app
+    'Gallery',
     'Events',
     'Members',
     'Research',

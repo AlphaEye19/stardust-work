@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def gallery_view(request):
     return render(request,'Gallery/gallery.html')
+
+def event_view(request):
+    return render(request,'Gallery/event.html')

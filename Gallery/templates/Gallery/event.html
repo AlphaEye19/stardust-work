@@ -8,7 +8,12 @@
         <h2>GALLERY</h2>
         <hr>
         <p>Welcome to the gallerey of Stardust</p>
-      </header>
+
+        <!-- add event name for the particular event -->
+
+        <h2>Event  Name</h2>
+
+    </header>
     </div>
 </section>
 
@@ -19,18 +24,18 @@
     <div id="stars3"></div>
 
     <div class="gallery-container">
-    <div class="gallery-img-container">
+        <div class="gallery-img-container">
+    
 
-        <!-- put this div inside a loop and run the loop with data of event name and its image -->
+    <!-- add  images using loop  -->
+    
+       <div class=" gallery-img-card-1  ">
+           <a href="{% url 'Gallery:event' %}"><img src="https://cdn-icons-png.flaticon.com/512/5784/5784119.png" alt=" image"></a>
+       </div>
 
-        <div class=" gallery-img-card-1  ">
-            <h2>Event  Name</h2>
-            <a href="{% url 'Gallery:event' %}"><img src="https://cdn-icons-png.flaticon.com/512/5784/5784119.png" alt=" image"></a>
         </div>
-     
-
     </div>
-</div>
+
 
 </section>
 
